@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+
+$theme-colors: (
+  "primary": #7a0012,
+  "secondary": #3a3a3a);
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+$colors: (
+  "blue": $blue,
+  "indigo": $indigo,
+  "purple": $purple,
+  "pink": $pink,
+  "red": $red,
+  "orange": $orange,
+  "yellow": $yellow,
+  "green": $green,
+  "teal": $teal,
+  "cyan": $cyan,
+  "white": $white,
+  "gray": $gray-600,
+  "gray-dark": $gray-800) !default;
