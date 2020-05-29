@@ -1,0 +1,61 @@
+{
+  "projects": [
+    {
+      "id":1,
+      "slug": "ShopnShop",
+      "name": "Shop & Shop",
+      "desc": "Création d'un site de vêtements pour une entreprise fictive.",
+      "image": "shopandshop.jpg",
+      "lien": "localhost/~pierre/ShopAndShop/",
+      "dossierTechnique": "https://drive.google.com/file/d/1kfW-1M8rOhD9JAyuG7jhe15gg9iy1A3d/view?usp=sharing",
+      "sourceCode": "https://github.com/InSomniaMoon/ShopAndShop",
+      "cahierCharges": "https://drive.google.com/open?id=1asb1BL74-KGzQp5emJ7bMYzeZIMUtiYC"
+    },
+    {
+      "id":2,
+      "slug": "Loval",
+      "name": "L'oval",
+      "desc": "Création d'un site pour un studio photo.",
+      "image": "studioloval.jpg",
+      "lien": "localhost/~pierre/loval/",
+      "dossierTechnique": "https://drive.google.com/file/d/15rdhTd6CJ058j_g71Jhxy7xoM4VUdMZl/view?usp=sharing",
+      "sourceCode": "https://github.com/InSomniaMoon/loval",
+      "cahierCharges": "https://drive.google.com/open?id=1B4zxjfwVihCmzQhn2caypbZfxDInZPyL"
+    },
+    {
+      "id":3,
+      "slug": "LeMonde",
+      "name": "LeMonde",
+      "desc": "Créationd'une application web de gestion des pays du monde.",
+      "image": "leMonde.png",
+      "lien": "localhost:8000",
+      "dossierTechnique": "",
+      "sourceCode": "https://github.com/InSomniaMoon/filrougePHP",
+      "cahierCharges": ""
+    },
+    {
+      "id":4,
+      "slug": "Proof",
+      "name": "Proof",
+      "desc": "Sujet de stage de première année. Création d'une application web en angular",
+      "image": "proof.jpg",
+      "lien": "https://cranky-wozniak-d33639.netlify.com/",
+      "dossierTechnique": "https://drive.google.com/open?id=138zK5iRdnTxwIdK3nLURbSB96fMSJrLv",
+      "sourceCode": "https://github.com/InSomniaMoon/Proof",
+      "cahierCharges": "https://drive.google.com/open?id=1O5EwkvMrCWDauSfxHV2ucMint6AJhmBQ",
+      "presentation": "https://1drv.ms/p/s!ApHCp4OUmDU4hrd8uhTXwSzK1oi0sA?e=V9HTjr"
+    },
+    {
+      "id":5,
+      "slug": "portefeuille-competences",
+      "name": "Portefeuille de compétences",
+      "desc": "Premier sujet de stage de deuxième année. Création d'une application web de gestion de portefeuille de compétence",
+      "image": "competences.png",
+      "lien": "",
+      "dossierTechnique": "",
+      "sourceCode": "",
+      "cahierCharges": "",
+      "presentation": ""
+    }
+  ]
+}

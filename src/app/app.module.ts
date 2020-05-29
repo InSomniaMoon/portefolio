@@ -8,6 +8,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ProjetsModule } from './modules/projets/projets.module';
 import { ProposModule } from './modules/propos/propos.module';
+import { HttpClientModule } from '@angular/common/http';
+import { ProjectService } from './core/services/project.service';
 
 @NgModule({
   declarations: [
@@ -19,10 +21,14 @@ import { ProposModule } from './modules/propos/propos.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     ProjetsModule,
     ProposModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [
+    ProjectService,
+  ],
+  bootstrap: [AppComponent],
+  exports:[NavbarComponent]
 })
 export class AppModule { }

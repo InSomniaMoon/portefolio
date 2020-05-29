@@ -1,1 +1,27 @@
-<p>projets works!</p>
+<div class="col-9 mx-auto">
+  <div id="carouselProjects" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselProjects" class="active" [attr.data-slide-to]=i
+        *ngFor="let item of projets|async; let i = index"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <ng-container *ngFor="let projet of projets|async; let i = index">
+        <div class="carousel-item" [ngClass]="{'active': i == 0}" routerLink="/projets/{{projet.slug}}">
+          <img src="assets/img/moi.jpg" class="img-fluid" alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>{{projet.name}}</h3>
+            <p>{{projet.desc}}</p>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+    <a class="carousel-control-prev" href="#carouselProjects" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Précedent</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselProjects" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Suivant</span>
+    </a>
+  </div>
+</div>
