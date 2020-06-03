@@ -1,3 +1,22 @@
+<div class="col-10">
+  <button class="btn btn-outline-primary" (click)=goBack()> Retour</button>
+</div>
 <div class="col-9 mx-auto">
-  <p class="mx-auto">{{projet?.name}}</p>
+  <p class="justify-content-center d-flex h1 mb-5">{{projet?.name}}</p>
+  <div class="mx-auto col-6">
+    <img [src]="'assets/img/'+projet?.slug+'.jpg'" class="img-fluid" alt="{{projet?.slug}}">
+  </div>
+  <p class="my-5"><strong class="text-bold" *ngIf="projet?.desc != ''">Description : </strong>{{projet?.desc}}</p> <a
+    class="btn btn-outline-secondary mx-auto btn-lg col-2 " *ngIf="projet?.lien" target="_blank"
+    [href]="projet?.lien">Voir le site</a>
+  <div class="row d-flex justify-content-around">
+    <a *ngIf="projet?.cahierCharges" target="_blank" [href]="projet?.cahierCharges" class="btn btn-primary">Cahier des
+      Charges</a>
+    <a *ngIf="projet?.dossierTechnique" target="_blank" [href]="projet?.dossierTechnique"
+      class="btn btn-secondary">Dossier
+      Technique</a>
+    <a *ngIf="projet?.sourceCode" target="_blank" [href]="projet?.sourceCode" class="btn btn-primary">Code source</a>
+    <a *ngIf="projet?.presentation" target="_blank" [href]="projet?.cahierCharges"
+      class="btn btn-secondary">Présentation</a>
+  </div>
 </div>
