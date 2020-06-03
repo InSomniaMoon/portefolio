@@ -11,7 +11,7 @@ export class ProjectService {
   constructor(private http: HttpClient) { }
 
   public getProjects(): Observable<[]> {
-    return this.http.get('assets/projects.json').pipe(
+    return this.http.get('assets/json/projects.json').pipe(
       map((res: any) => res.projects)
     )
   }
