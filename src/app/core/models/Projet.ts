@@ -9,4 +9,5 @@ export declare interface Projet {
   sourceCode;
   cahierCharges;
   presentation;
+  competences;
 }

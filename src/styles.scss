@@ -5,6 +5,23 @@ $theme-colors: (
   "secondary": #3a3a3a);
 
 @import "node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
+
+$font-family-base:
+  // Safari for macOS and iOS (San Francisco)
+  -apple-system,
+  // Chrome < 56 for macOS (San Francisco)
+  BlinkMacSystemFont,
+  // Windows
+  "Sarabun",
+  // Android
+  Roboto,
+  // Basic web fallback
+  "Sarabun", sans-serif,
+  // Linux
+  "Sarabun", sans-serif,
+  // Emoji fonts
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default ;
 
 $colors: (
   "blue": $blue,

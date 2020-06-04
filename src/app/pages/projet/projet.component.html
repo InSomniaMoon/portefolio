@@ -19,4 +19,8 @@
     <a *ngIf="projet?.presentation" target="_blank" [href]="projet?.cahierCharges"
       class="btn btn-secondary">Présentation</a>
   </div>
+  <p class="h3">Compétences obtenues : </p>
+  <ul>
+    <li *ngFor="let competence of projet?.competences">{{competence}}</li>
+  </ul>
 </div>

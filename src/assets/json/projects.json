@@ -1,62 +1,119 @@
 {
   "projects": [
     {
-      "id":1,
+      "slug": "adminGestion",
+      "name": "Administration de gestion d'emprunt de matériel",
+      "type": "PPE",
+      "desc": "Création d'une application web de gestion d'emprunt de matériel pour un groupe scout, avec suivi d'incidents.",
+      "dossierTechnique": "",
+      "sourceCode": "",
+      "cahierCharges": "",
+      "competences": [
+        "A1.1.1 Analyse du cahier des charges d'un service à produire",
+        "A1.1.2 Étude de l'impact de l'intégration d'un service sur le système informatique",
+        "A1.1.3 Étude des exigences liées à la qualité attendue d'un service",
+        "A1.2.3 Évaluation des risques liés à l'utilisation d'un service",
+        "A1.2.5 Définition des niveaux d'habilitation associés à un service",
+        "A1.3.1 Test d'intégration et d'acceptation d'un service",
+        "A1.3.4 Déploiement d'un service",
+        "A1.4.1 Participation à un projet",
+        "A1.4.3 Gestion des ressources",
+        "A2.1.2 Évaluation et maintien de la qualité d'un service",
+        "A4.1.1 Proposition d'une solution applicative",
+        "A4.1.2 Conception ou adaptation de l'interface utilisateur d'une solution applicative",
+        "A4.1.3 Conception ou adaptation d'une base de données",
+        "A4.1.6 Gestion d'environnements de développement et de test",
+        "A4.1.7 Développement, utilisation ou adaptation de composants logiciels",
+        "A5.1.6 Évaluation d'un investissement informatique"
+      ]
+    },
+    {
       "slug": "ShopnShop",
       "name": "Shop & Shop",
-      "type":"PPE",
+      "type": "PPE",
       "desc": "Création d'un site de vêtements pour une entreprise fictive.",
       "lien": "",
       "dossierTechnique": "https://drive.google.com/file/d/1kfW-1M8rOhD9JAyuG7jhe15gg9iy1A3d/view?usp=sharing",
       "sourceCode": "https://github.com/InSomniaMoon/ShopAndShop",
-      "cahierCharges": "https://drive.google.com/open?id=1asb1BL74-KGzQp5emJ7bMYzeZIMUtiYC"
+      "cahierCharges": "https://drive.google.com/open?id=1asb1BL74-KGzQp5emJ7bMYzeZIMUtiYC",
+      "competences": [
+        "A1.1.1 Analyse du cahier des charges d'un service à produire",
+        "A1.1.2 Étude de l'impact de l'intégration d'un service sur le système informatique",
+        "A1.1.3 Étude des exigences liées à la qualité attendue d'un service",
+        "A1.2.1 Élaboration et présentation d'un dossier de choix de solution technique",
+        "A4.1.5 Prototypage de composants logiciels"
+      ]
     },
     {
-      "id":2,
-      "slug": "L-Oval",
-      "name": "L'oval",
-      "type":"PPE",
-      "desc": "Création d'un site pour un studio photo.",
-      "image": "studioloval.jpg",
-      "lien": "",
-      "dossierTechnique": "https://drive.google.com/file/d/15rdhTd6CJ058j_g71Jhxy7xoM4VUdMZl/view?usp=sharing",
-      "sourceCode": "https://github.com/InSomniaMoon/loval",
-      "cahierCharges": "https://drive.google.com/open?id=1B4zxjfwVihCmzQhn2caypbZfxDInZPyL"
-    },
-    {
-      "id":3,
       "slug": "LeMonde",
-      "name": "LeMonde",
-      "type":"TP",
-      "desc": "Créationd'une application web de gestion des pays du monde.",
+      "name": "Le Monde",
+      "type": "TP",
+      "desc": "Création d'une application web de gestion des pays du monde.",
       "lien": "",
       "dossierTechnique": "",
       "sourceCode": "https://github.com/InSomniaMoon/filrougePHP",
-      "cahierCharges": ""
+      "cahierCharges": "",
+      "competences": []
     },
     {
-      "id":4,
       "slug": "Proof",
       "name": "Proof",
-      "type":"Stage",
+      "type": "Stage",
       "desc": "Sujet de stage de première année. Création d'une application web en angular",
       "lien": "https://cranky-wozniak-d33639.netlify.com/",
       "dossierTechnique": "https://drive.google.com/open?id=138zK5iRdnTxwIdK3nLURbSB96fMSJrLv",
       "sourceCode": "https://github.com/InSomniaMoon/Proof",
       "cahierCharges": "https://drive.google.com/open?id=1O5EwkvMrCWDauSfxHV2ucMint6AJhmBQ",
-      "presentation": "https://1drv.ms/p/s!ApHCp4OUmDU4hrd8uhTXwSzK1oi0sA?e=V9HTjr"
+      "presentation": "https://1drv.ms/p/s!ApHCp4OUmDU4hrd8uhTXwSzK1oi0sA?e=V9HTjr",
+      "competences": []
     },
     {
-      "id":5,
       "slug": "Portefeuille-competences",
       "name": "Portefeuille de compétences",
-      "type":"Stage",
+      "type": "Stage",
       "desc": "Premier sujet de stage de deuxième année. Création d'une application web de gestion de portefeuille de compétence",
       "lien": "",
       "dossierTechnique": "",
       "sourceCode": "",
       "cahierCharges": "",
-      "presentation": ""
+      "presentation": "",
+      "competences": [
+        "A1.1.1 Analyse du cahier des charges d'un service à produire",
+        "A1.2.2 Rédaction des spécifications techniques de la solution retenue (adaptation d'une solution existante ou réalisation d'une nouvelle solution)",
+        "A1.2.3 Évaluation des risques liés à l'utilisation d'un service",
+        "A1.2.5 Définition des niveaux d'habilitation associés à un service",
+        "A1.3.1 Test d'intégration et d'acceptation d'un service",
+        "A1.3.2 Définition des éléments nécessaires à la continuité d'un service",
+        "A1.3.4 Déploiement d'un service",
+        "A1.4.3 Gestion des ressources",
+        "A2.1.2 Évaluation et maintien de la qualité d'un service",
+        "A2.3.1 Identification, qualification et évaluation d'un problème",
+        "A2.3.2 Proposition d'amélioration d'un service",
+        "A4.1.1 Proposition d'une solution applicative",
+        "A4.1.2 Conception ou adaptation de l'interface utilisateur d'une solution applicative",
+        "A4.1.3 Conception ou adaptation d'une base de données",
+        "A4.1.4 Définition des caractéristiques d'une solution applicative",
+        "A4.1.7 Développement, utilisation ou adaptation de composants logiciels",
+        "A4.1.9 Rédaction d'une documentation technique",
+        "A4.2.1 Analyse et correction d'un dysfonctionnement, d'un problème de qualité de service ou de sécurité",
+        "A4.2.2 Adaptation d'une solution applicative aux évolutions de ses composants",
+        "A5.1.1 Mise en place d'une gestion de configuration",
+        "A5.2.1 Exploitation des référentiels, normes et standards adoptés par le prestataire informatique",
+        "A5.2.3 Repérage des compléments de formation ou d'auto-formation utiles à l'acquisition de nouvelles compétences",
+        "A5.2.4 Étude d‘une technologie, d'un composant, d'un outil ou d'une méthode"
+      ]
+    },
+    {
+      "slug": "L-Oval",
+      "name": "L'oval",
+      "type": "PPE",
+      "desc": "Création d'un site pour un studio photo.",
+      "image": "studioloval.jpg",
+      "lien": "",
+      "dossierTechnique": "https://drive.google.com/file/d/15rdhTd6CJ058j_g71Jhxy7xoM4VUdMZl/view?usp=sharing",
+      "sourceCode": "https://github.com/InSomniaMoon/loval",
+      "cahierCharges": "https://drive.google.com/open?id=1B4zxjfwVihCmzQhn2caypbZfxDInZPyL",
+      "competences": []
     }
   ]
 }
