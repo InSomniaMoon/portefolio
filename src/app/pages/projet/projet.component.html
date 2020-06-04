@@ -1,9 +1,9 @@
-<div class="col-10">
+<div class="col-12 col-md-10">
   <button class="btn btn-outline-primary" (click)=goBack()> Retour</button>
 </div>
-<div class="col-9 mx-auto">
+<div class="col-md-9 col-12 mx-auto">
   <p class="justify-content-center d-flex h1 mb-5">{{projet?.name}}</p>
-  <div class="mx-auto col-6">
+  <div class="mx-auto col-md-6 col-12">
     <img [src]="'assets/img/'+projet?.slug+'.jpg'" class="img-fluid" alt="{{projet?.slug}}">
   </div>
   <p class="my-5"><strong class="text-bold" *ngIf="projet?.desc != ''">Description : </strong>{{projet?.desc}}</p> <a

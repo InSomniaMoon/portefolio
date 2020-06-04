@@ -1,14 +1,14 @@
-<div class="col-9 mx-auto">
+<div class="col-12 col-md-9 mx-auto">
   <p class="justify-content-center d-flex h1 mb-5">Mon parcours</p>
   <p class="h3 font-weight-bolder">{{parcours?.experience.name}}</p>
-  <p *ngFor="let experience of parcours?.experience.data" class="pl-5">
+  <p *ngFor="let experience of parcours?.experience.data" class="pl-md-5 pl-3">
     <span class="small text-muted text-uppercase font-weight-bolder">{{experience.date}}</span><br>
     <span class=""><span class="text-primary font-weight-bold">{{experience.nom}},</span>
       {{experience.centre}}</span><br>
     <span *ngIf="experience.description" class="small">{{experience.description}}<br></span>
   </p>
   <p class="h3 font-weight-bolder">{{parcours?.formation.name}}</p>
-  <p *ngFor="let formation of parcours?.formation.data" class="pl-5">
+  <p *ngFor="let formation of parcours?.formation.data" class="pl-md-5 pl-3">
     <span class="small text-muted text-uppercase font-weight-bolder">{{formation.date}}</span><br>
     <span><span class="text-primary font-weight-bold">{{formation.nom}},</span> {{formation.centre}}</span><br>
     <span class="small" *ngIf="formation.description">{{formation.description}}<br></span>
