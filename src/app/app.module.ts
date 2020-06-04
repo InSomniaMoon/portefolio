@@ -10,6 +10,8 @@ import { ProjetsModule } from './modules/projets/projets.module';
 import { ProposModule } from './modules/propos/propos.module';
 import { HttpClientModule } from '@angular/common/http';
 import { ProjectService } from './core/services/project.service';
+import { ParcoursComponent } from './pages/parcours/parcours.component';
+import { ParcoursService } from './core/services/parcours.service';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,7 @@ import { ProjectService } from './core/services/project.service';
     PhotoComponent,
     HomeComponent,
     NavbarComponent,
+    ParcoursComponent,
   ],
   imports: [
     BrowserModule,
@@ -27,8 +30,9 @@ import { ProjectService } from './core/services/project.service';
   ],
   providers: [
     ProjectService,
+    ParcoursService,
   ],
   bootstrap: [AppComponent],
-  exports:[NavbarComponent]
+  exports: [NavbarComponent]
 })
 export class AppModule { }
