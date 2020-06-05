@@ -1,0 +1,27 @@
+{
+  "projets": [
+    {
+      "slug": "L-Oval",
+      "name": "L'oval",
+      "type": "PPE",
+      "desc": "Création d'un site pour un studio photo.",
+      "image": "studioloval.jpg",
+      "lien": "",
+      "dossierTechnique": "https://drive.google.com/file/d/15rdhTd6CJ058j_g71Jhxy7xoM4VUdMZl/view?usp=sharing",
+      "sourceCode": "https://github.com/InSomniaMoon/loval",
+      "cahierCharges": "https://drive.google.com/open?id=1B4zxjfwVihCmzQhn2caypbZfxDInZPyL",
+      "competences": []
+    },
+    {
+      "slug": "LeMonde",
+      "name": "Le Monde",
+      "type": "TP",
+      "desc": "Création d'une application web de gestion des pays du monde.",
+      "lien": "",
+      "dossierTechnique": "",
+      "sourceCode": "https://github.com/InSomniaMoon/filrougePHP",
+      "cahierCharges": "",
+      "competences": []
+    }
+  ]
+}

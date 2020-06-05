@@ -45,27 +45,23 @@
       ]
     },
     {
-      "slug": "LeMonde",
-      "name": "Le Monde",
-      "type": "TP",
-      "desc": "Création d'une application web de gestion des pays du monde.",
-      "lien": "",
-      "dossierTechnique": "",
-      "sourceCode": "https://github.com/InSomniaMoon/filrougePHP",
-      "cahierCharges": "",
-      "competences": []
-    },
-    {
       "slug": "Proof",
       "name": "Proof",
       "type": "Stage",
       "desc": "Sujet de stage de première année. Création d'une application web en angular",
-      "lien": "https://cranky-wozniak-d33639.netlify.com/",
+      "lien": "https://etude-proof.netlify.app",
       "dossierTechnique": "https://drive.google.com/open?id=138zK5iRdnTxwIdK3nLURbSB96fMSJrLv",
       "sourceCode": "https://github.com/InSomniaMoon/Proof",
       "cahierCharges": "https://drive.google.com/open?id=1O5EwkvMrCWDauSfxHV2ucMint6AJhmBQ",
       "presentation": "https://1drv.ms/p/s!ApHCp4OUmDU4hrd8uhTXwSzK1oi0sA?e=V9HTjr",
-      "competences": []
+      "competences": [
+        "A1.1.1 Analyse du cahier des charges d'un service à produire",
+        "A1.4.1 Participation à un projet",
+        "A4.1.1 Proposition d'une solution applicative",
+        "A4.1.7 Développement, utilisation ou adaptation de composants logiciels",
+        "A4.1.9 Rédaction d'une documentation technique",
+        "A4.1.1 Rédaction d'une documentation d'utilisation"
+      ]
     },
     {
       "slug": "Portefeuille-competences",
@@ -102,18 +98,6 @@
         "A5.2.3 Repérage des compléments de formation ou d'auto-formation utiles à l'acquisition de nouvelles compétences",
         "A5.2.4 Étude d‘une technologie, d'un composant, d'un outil ou d'une méthode"
       ]
-    },
-    {
-      "slug": "L-Oval",
-      "name": "L'oval",
-      "type": "PPE",
-      "desc": "Création d'un site pour un studio photo.",
-      "image": "studioloval.jpg",
-      "lien": "",
-      "dossierTechnique": "https://drive.google.com/file/d/15rdhTd6CJ058j_g71Jhxy7xoM4VUdMZl/view?usp=sharing",
-      "sourceCode": "https://github.com/InSomniaMoon/loval",
-      "cahierCharges": "https://drive.google.com/open?id=1B4zxjfwVihCmzQhn2caypbZfxDInZPyL",
-      "competences": []
     }
   ]
 }

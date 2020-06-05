@@ -6,10 +6,11 @@
   <div class="mx-auto col-md-6 col-12">
     <img [src]="'assets/img/'+projet?.slug+'.jpg'" class="img-fluid" alt="{{projet?.slug}}">
   </div>
-  <p class="my-5"><strong class="text-bold" *ngIf="projet?.desc != ''">Description : </strong>{{projet?.desc}}</p> <a
-    class="btn btn-outline-secondary mx-auto btn-lg col-2 " *ngIf="projet?.lien" target="_blank"
+  <p class="my-5"><strong class="text-bold" *ngIf="projet?.desc != ''">Description : </strong>{{projet?.desc}}</p>
+
+  <a class="btn btn-outline-secondary mx-auto btn-lg col" *ngIf="projet?.lien" target="_blank"
     [href]="projet?.lien">Voir le site</a>
-  <div class="row d-flex justify-content-around">
+  <div class="row d-flex justify-content-around my-4">
     <a *ngIf="projet?.cahierCharges" target="_blank" [href]="projet?.cahierCharges" class="btn btn-primary">Cahier des
       Charges</a>
     <a *ngIf="projet?.dossierTechnique" target="_blank" [href]="projet?.dossierTechnique"
