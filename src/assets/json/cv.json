@@ -1,173 +1,176 @@
-{"parcours":{
-  "fr": {
-    "experience": {
-      "name": "Expérience",
-      "data": [
-        {
-          "date": "février - mars 2020",
-          "nom": "Stage de Deuxième Année de BTS",
-          "centre": "INSERM, Cetnre de neurosciences de Lyon",
-          "description": "Développement d'une application web de gestion de portefeuille de compétences, développeement d'une interface de commnde pour un caméra par serveur Nginx"
-        },
-        {
-          "date": "juin 2019",
-          "nom": "Stage de première année de BTS",
-          "centre": "SNA-EPIS - Equipe d'accueil universitaire CHU St Etienne",
-          "description": "Développement d'un site vitrine de présentation des travaux de recherche du laboratoire."
-        },
-        {
-          "date": "Depuis 2016",
-          "nom": "Chef scout",
-          "centre": "Scouts et Guides De France",
-          "description": "Gestion d'équipe, encadrement et animation de jeune public en accueil collectid de mineur, gestion administrative, intendance, budgétaire et sanitaire"
-        },
-        {
-          "date": "Depuis 2014",
-          "nom": "Tutorat aide aux devoirs",
-          "centre": "",
-          "description": "Suivi d'un adolescent durand sa période collège afin d'améliorer ses résultats"
-        }
-      ]
-    },
-    "formation": {
-      "name":"Formation",
-      "data":[
-      {
-        "date": "2018 - 2020",
-        "nom": "BTS Informatique (SIO)",
-        "centre": "Institution des Chartreux",
-        "description": ""
+{
+  "parcours": {
+    "fr": {
+      "experience": {
+        "name": "Expérience",
+        "data": [
+          {
+            "date": "février - mars 2020",
+            "nom": "Stage de Deuxième Année de BTS",
+            "centre": "INSERM, Centre de neurosciences de Lyon",
+            "description": "Développement d'une application web de gestion de portefeuille de compétences, développeement d'une interface de commande pour un caméra par serveur Nginx"
+          },
+          {
+            "date": "juin 2019",
+            "nom": "Stage de première année de BTS",
+            "centre": "SNA-EPIS - Equipe d'accueil universitaire CHU St Etienne",
+            "description": "Développement d'un site vitrine de présentation des travaux de recherche du laboratoire."
+          },
+          {
+            "date": "Depuis 2016",
+            "nom": "Chef scout",
+            "centre": "Scouts et Guides De France",
+            "description": "Gestion d'équipe, encadrement et animation de jeune public en accueil collectif de mineur, gestion administrative, intendance, budgétaire et sanitaire"
+          },
+          {
+            "date": "Depuis 2014",
+            "nom": "Tutorat aide aux devoirs",
+            "centre": "",
+            "description": "Suivi d'un adolescent durant sa période collège afin d'améliorer ses résultats"
+          }
+        ]
       },
-      {
-        "date": "2018",
-        "nom": "BAFA",
-        "centre": "Scouts et Guides de France",
-        "description": "Approfondissement animation scientifique, direction de camp"
+      "formation": {
+        "name": "Formation",
+        "data": [
+          {
+            "date": "2018 - 2020",
+            "nom": "BTS Informatique (SIO)",
+            "centre": "Institution des Chartreux",
+            "description": ""
+          },
+          {
+            "date": "2018",
+            "nom": "BAFA",
+            "centre": "Scouts et Guides de France",
+            "description": "Approfondissement animation scientifique, direction de camp"
+          },
+          {
+            "date": "2018",
+            "nom": "PSC1",
+            "centre": "Croix Rouge",
+            "description": ""
+          },
+          {
+            "date": "2017-2018",
+            "nom": "PACES",
+            "centre": "Faculté de médecine Charles Merieux",
+            "description": ""
+          },
+          {
+            "date": "2017",
+            "nom": "Baccalauréat Scientifique",
+            "centre": "Lycée de La Favorite",
+            "description": "Mention assez bien, spécialité mathématique, option musique"
+          }
+        ]
       },
-      {
-        "date": "2018",
-        "nom": "PSC1",
-        "centre": "Croix Rouge",
-        "description": ""
+      "competences": {
+        "name": "Compétences",
+        "data": [
+          "Sérieux, motivé, rigoureux, très impliqué dans les tâches qui me sont confiées",
+          "Bon pédagogue, réactif",
+          "Langages maitrisés : javascript (Framework Angular), HTML5, CSS3 (Framework Bootstrap), python (Framework Django), PHP (Framework Laravel), SQL, java",
+          "Anglais : parlé, lu et écrit couramment (B2)",
+          "Espagnol : lu et parlé couramment (B2)",
+          "Permis B"
+        ]
       },
-      {
-        "date": "2017-2018",
-        "nom": "PACES",
-        "centre": "Faculté de médecine Charles Merlieux",
-        "description": ""
-      },
-      {
-        "date": "2017",
-        "nom": "Baccalauréat Scientifique",
-        "centre": "Lycée de La Favorite",
-        "description": "Mention assez bien, spécialité mathématique, option musique"
+      "activites": {
+        "name": "Activités",
+        "data": [
+          "Dix ans de chant choral : Petits Chanteurs de Saint‐Marc, La Cigale de Lyon, classe CHAM au conservatoire de Lyon, Centre de la Voix Rhône‐Alpes, Chœur National de Jeunes ‐ A Chœur Joie",
+          "Quatorze ans de scoutisme chez les Scouts et Guides de France",
+          "Photographie en amateur",
+          "Surf et snowboard à bon niveau"
+        ]
       }
-    ]},
-    "competences": {
-      "name":"Compétences",
-      "data": [
-        "Sérieux, motivé, rigoureux, très impliqué dans les tâches qui me sont confiées",
-        "Bon pédagogue, réactif",
-        "Langages maitrisés : javascript (Framework Angular), HTML5, CSS3 (Framework Bootstrap), python (Framework Django), PHP (Framework Laravel), SQL, java",
-        "Anglais : parlé, lu et écrit couramment (B2)",
-        "Espagnol : lu et parlé couramment (B2)",
-        "Permis B"
-      ]
     },
-    "activites": {
-      "name": "Activités",
-      "data": [
-        "Dix ans de chant choral : Petits Chanteurs de Saint‐Marc, La Cigale de Lyon, classe CHAM au conservatoire de Lyon, Centre de la Voix Rhône‐Alpes, Chœur National de Jeunes ‐ A Chœur Joie",
-        "Quatorze ans de scoutisme chez les Scouts et Guides de France",
-        "Photographie en amateur",
-        "Surf et snowboard à bon niveau"
-      ]
-    }
-  },
-  "en":{
-    "experience": {
-      "name": "Experience",
-      "data": [
-        {
-          "date": "february - march 2020",
-          "nom": "Internship for second year ",
-          "centre": "INSERM, Cetnre de neurosciences de Lyon",
-          "description": "Développement d'une application web de gestion de portefeuille de compétences, développeement d'une interface de commnde pour un caméra par serveur Nginx"
-        },
-        {
-          "date": "june 2019",
-          "nom": "Stage de première année de BTS",
-          "centre": "SNA-EPIS - Equipe d'accueil universitaire CHU St Etienne",
-          "description": "Développement d'un site vitrine de présentation des travaux de recherche du laboratoire."
-        },
-        {
-          "date": "Since 2016",
-          "nom": "Chef scout",
-          "centre": "scouts et guides de france",
-          "description": "Gestion d'équipe, encadrement et animation de jeune public en accueil collectid de mineur, gestion administrative, intendance, budgétaire et sanitaire"
-        },
-        {
-          "date": "Since 2014",
-          "nom": "Tutorat aide aux devoirs",
-          "centre": "",
-          "description": "Suivi d'un adolescent durand sa période collège afin d'améliorer ses résultats"
-        }
-      ]
-    },
-    "formation": {
-      "name":"Formation",
-      "data":[
-      {
-        "date": "2018 - 2020",
-        "nom": "Technical College in Computer Science",
-        "centre": "Institution des Chartreux - Lyon, France",
-        "description": ""
+    "en": {
+      "experience": {
+        "name": "Experience",
+        "data": [
+          {
+            "date": "february - march 2020",
+            "nom": "Internship for second year ",
+            "centre": "INSERM, Cetnre de neurosciences de Lyon",
+            "description": "Développement d'une application web de gestion de portefeuille de compétences, développeement d'une interface de commnde pour un caméra par serveur Nginx"
+          },
+          {
+            "date": "june 2019",
+            "nom": "Stage de première année de BTS",
+            "centre": "SNA-EPIS - Equipe d'accueil universitaire CHU St Etienne",
+            "description": "Développement d'un site vitrine de présentation des travaux de recherche du laboratoire."
+          },
+          {
+            "date": "Since 2016",
+            "nom": "Chef scout",
+            "centre": "scouts et guides de france",
+            "description": "Gestion d'équipe, encadrement et animation de jeune public en accueil collectid de mineur, gestion administrative, intendance, budgétaire et sanitaire"
+          },
+          {
+            "date": "Since 2014",
+            "nom": "Tutorat aide aux devoirs",
+            "centre": "",
+            "description": "Suivi d'un adolescent durand sa période collège afin d'améliorer ses résultats"
+          }
+        ]
       },
-      {
-        "date": "2018",
-        "nom": "BAFA",
-        "centre": "Scouts et Guides de France",
-        "description": ""
+      "formation": {
+        "name": "Formation",
+        "data": [
+          {
+            "date": "2018 - 2020",
+            "nom": "Technical College in Computer Science",
+            "centre": "Institution des Chartreux - Lyon, France",
+            "description": ""
+          },
+          {
+            "date": "2018",
+            "nom": "BAFA",
+            "centre": "Scouts et Guides de France",
+            "description": ""
+          },
+          {
+            "date": "2018",
+            "nom": "Aid certificate",
+            "centre": "French Red Cross",
+            "description": ""
+          },
+          {
+            "date": "2017-2018",
+            "nom": "Medical Studies (first year)",
+            "centre": "Faculty of Medicine Charles Merlieux",
+            "description": ""
+          },
+          {
+            "date": "2017",
+            "nom": "Baccalauréat Scientifique",
+            "centre": "Lycée de La Favorite",
+            "description": "Mention assez bien, spécialité mathématique, option musique"
+          }
+        ]
       },
-      {
-        "date": "2018",
-        "nom": "Aid certificate",
-        "centre": "French Red Cross",
-        "description": ""
+      "competences": {
+        "name": "Skills",
+        "data": [
+          "Serious, motivated, rigorous, involved in the tasks assigned",
+          "Good pedagogue, reactive",
+          "Langages maitrisés : javascript (Framework Angular), HTML5, CSS3 (Framework Bootstrap), python (Framework Django), PHP (Framework Laravel), SQL, java",
+          "English: spoken, read and written (B2)",
+          "Spanish: spoken and read (B2)",
+          "Driving Licence"
+        ]
       },
-      {
-        "date": "2017-2018",
-        "nom": "Medical Studies (first year)",
-        "centre": "Faculty of Medicine Charles Merlieux",
-        "description": ""
-      },
-      {
-        "date": "2017",
-        "nom": "Baccalauréat Scientifique",
-        "centre": "Lycée de La Favorite",
-        "description": "Mention assez bien, spécialité mathématique, option musique"
+      "activites": {
+        "name": "Activities",
+        "data": [
+          "Ten years ofsinging: Petits Chanteurs de Saint-Marc, La Cigale de Lyon, musical cursus in the conservatory of Lyon, Centre de la Voix Rhône-Alpes, Chœur National de Jeunes - A ChœurJoie",
+          "Fourteen years of scouting with Scouts et Guides de France",
+          "Amateur Photography",
+          "Good level in surf and snowBoard"
+        ]
       }
-    ]},
-    "competences": {
-      "name":"Skills",
-      "data": [
-        "Serious, motivated, rigorous, involved in the tasks assigned",
-        "Good pedagogue, reactive",
-        "Langages maitrisés : javascript (Framework Angular), HTML5, CSS3 (Framework Bootstrap), python (Framework Django), PHP (Framework Laravel), SQL, java",
-        "English: spoken, read and written (B2)",
-        "Spanish: spoken and read (B2)",
-        "Driving Licence"
-      ]
-    },
-    "activites": {
-      "name": "Activities",
-      "data": [
-        "Ten years ofsinging: Petits Chanteurs de Saint-Marc, La Cigale de Lyon, musical cursus in the conservatory of Lyon, Centre de la Voix Rhône-Alpes, Chœur National de Jeunes - A ChœurJoie",
-        "Fourteen years of scouting with Scouts et Guides de France",
-        "Amateur Photography",
-        "Good level in surf and snowBoard"
-      ]
     }
-
   }
-}}
+}
